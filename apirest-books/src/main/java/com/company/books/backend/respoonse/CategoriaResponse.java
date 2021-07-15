@@ -4,7 +4,7 @@ import java.util.*;
 
 import com.company.books.backend.model.Categoria;
 
-public class CategoriaResponse {
+public class CategoriaResponse { //objetos de respuesta al extraer de CRUD
 
 	private List<Categoria> categoria;
 

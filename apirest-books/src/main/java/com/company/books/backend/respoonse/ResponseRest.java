@@ -5,7 +5,7 @@ import java.util.HashMap;
 
 public class ResponseRest {
 	
-	private ArrayList<HashMap<String, String>> metadata = new ArrayList<>();
+	private ArrayList<HashMap<String, String>> metadata = new ArrayList<>(); //seccion de metadatos
 
 	public ArrayList<HashMap<String, String>> getMetadata() {
 		return metadata;
