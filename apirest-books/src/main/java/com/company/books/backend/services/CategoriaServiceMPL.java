@@ -1,5 +1,10 @@
 package com.company.books.backend.services;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Optional;
+
+import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -9,13 +14,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.company.books.backend.model.Categoria;
 import com.company.books.backend.model.dao.CategoriaDAO;
 import com.company.books.backend.respoonse.CategoriaResponseRest;
-
-import java.util.*;
-
-import org.slf4j.LoggerFactory;
-
-
-import org.slf4j.Logger;
 
 @Service
 public class CategoriaServiceMPL implements CategoriaService{ //el servicio categoria con su implementacion correspondiente

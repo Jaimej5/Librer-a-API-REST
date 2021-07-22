@@ -7,8 +7,8 @@ import com.company.books.backend.respoonse.CategoriaResponseRest;
 
 public interface CategoriaService {//FIRMAS DE MÉTODOS
 
-	public ResponseEntity<CategoriaResponseRest> buscarCategorias(); //devolverá una categoria REST
-	//Response entitity agrega distintos estados a los servicios HTTP
+	public ResponseEntity<CategoriaResponseRest> buscarCategorias(); //devolverá todas las categorias
+	//Response entity agrega distintos estados a los servicios HTTP
 
 	public ResponseEntity<CategoriaResponseRest> buscarPorId(long id);
 
